@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import ChatBotLibrary
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let obj = Logger()
+        obj.doSomething()
     }
 
     override func didReceiveMemoryWarning() {
