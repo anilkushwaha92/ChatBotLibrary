@@ -12,7 +12,6 @@
 		04D0238C263C2EC8005E0FF4 /* ChatBotLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D0237C263C2EC8005E0FF4 /* ChatBotLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04D0238F263C2EC8005E0FF4 /* ChatBotLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D0237A263C2EC8005E0FF4 /* ChatBotLibrary.framework */; };
 		04D02390263C2EC8005E0FF4 /* ChatBotLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04D0237A263C2EC8005E0FF4 /* ChatBotLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04D023B3263C3149005E0FF4 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D023B2263C3149005E0FF4 /* Logger.swift */; };
 		22695D75319AC43B0E79AD56 /* Pods_ChatBotLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0788DB7F882D78CAFE9BD82 /* Pods_ChatBotLibrary.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -77,7 +76,6 @@
 		04D02382263C2EC8005E0FF4 /* ChatBotLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatBotLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D02389263C2EC8005E0FF4 /* ChatBotLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotLibraryTests.swift; sourceTree = "<group>"; };
 		04D0238B263C2EC8005E0FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04D023B2263C3149005E0FF4 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		32A606FF374040C4D33FE162 /* Pods-ChatBotLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBotLibrary.release.xcconfig"; path = "Target Support Files/Pods-ChatBotLibrary/Pods-ChatBotLibrary.release.xcconfig"; sourceTree = "<group>"; };
 		3C50108581143C28DCB03310 /* Pods-ChatBotLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBotLibrary_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ChatBotLibrary_Tests/Pods-ChatBotLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ChatBotLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBotLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,7 +142,6 @@
 			children = (
 				04D0237C263C2EC8005E0FF4 /* ChatBotLibrary.h */,
 				04D0237D263C2EC8005E0FF4 /* Info.plist */,
-				04D023B2263C3149005E0FF4 /* Logger.swift */,
 			);
 			path = ChatBotLibrary;
 			sourceTree = "<group>";
@@ -563,7 +560,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D023B3263C3149005E0FF4 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,7 +712,6 @@
 		04D02394263C2EC8005E0FF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -746,7 +741,6 @@
 		04D02395263C2EC8005E0FF4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -873,7 +867,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D7B41412F8E30B77F1EF40D6 /* Pods-ChatBotLibrary_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChatBotLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -890,7 +883,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E428AFF87D9CDCF85ABEC11B /* Pods-ChatBotLibrary_Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChatBotLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;

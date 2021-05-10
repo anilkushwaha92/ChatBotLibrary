@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ChatBotLibrary'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'ChatBotLibrary framework a short description of for use in the iOS App.'
 
 # This description is used to generate tags and improve search results.
@@ -42,4 +42,5 @@ TODO: Try to keep it short, snappy and to the point, ChatBotLibrary framework a 
   s.static_framework = true
   s.dependency 'Firebase/Firestore'
   s.dependency 'FirebaseFirestoreSwift'
+  
 end

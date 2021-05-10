@@ -9,10 +9,13 @@ import Foundation
 import FirebaseCore
 
 public class Test {
+    
     public init(){
         
     }
+    
     public func doSomething(){
         print("Do something")
     }
+    
 }

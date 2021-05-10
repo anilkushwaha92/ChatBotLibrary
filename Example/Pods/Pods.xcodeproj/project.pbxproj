@@ -126,6 +126,8 @@
 		041CB17EDD1B00B28AE7684C91283D63 /* FIRStorageListResult_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7359BA29985DE5ED2F1ECBCCBBC7E07C /* FIRStorageListResult_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		041E2AF14917798D29F540F58CFE7916 /* fork.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CCFAB01E4CB1402D0210F765AB3E943 /* fork.h */; };
 		043A2A1F691B2ECAB1E3C50929BDB700 /* b64.cc in Sources */ = {isa = PBXBuildFile; fileRef = A6A8B042E9862E19C974220193173A52 /* b64.cc */; settings = {COMPILER_FLAGS = "-DGRPC_ARES=0 -Wno-comma -DGRPC_SHADOW_BORINGSSL_SYMBOLS -fno-objc-arc"; }; };
+		0446E9FF26494DB900B95D6B /* ChatBotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446E9FD26494DB900B95D6B /* ChatBotVC.swift */; };
+		0446EA0026494DB900B95D6B /* ChatBotVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0446E9FE26494DB900B95D6B /* ChatBotVC.xib */; };
 		04495CB74CD5F7776835D17E737EED85 /* ecdsa_asn1.c in Sources */ = {isa = PBXBuildFile; fileRef = B9C19BF5D72665C54C684C6CF4D782FC /* ecdsa_asn1.c */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
 		04558ED0F3FF3EA42D3A411F27899246 /* duration.upb.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B70E5F57BBA295B3655C73B38694422 /* duration.upb.c */; settings = {COMPILER_FLAGS = "-DGRPC_ARES=0 -Wno-comma -DGRPC_SHADOW_BORINGSSL_SYMBOLS -fno-objc-arc"; }; };
 		046593F2263FD6AE00011450 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046593F1263FD6AE00011450 /* Test.swift */; };
@@ -8603,6 +8605,8 @@
 		0424CD87E50EC429FDD591EB42CE81D0 /* default_health_check_service.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = default_health_check_service.h; path = src/cpp/server/health/default_health_check_service.h; sourceTree = "<group>"; };
 		042862FDAE5F4028CAC2E2C952CA5949 /* listener.upb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = listener.upb.h; path = "src/core/ext/upb-generated/envoy/api/v2/listener.upb.h"; sourceTree = "<group>"; };
 		0444A6D9AE8CCB534AAF15E8EA59C5D0 /* wakeup_fd_nospecial.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = wakeup_fd_nospecial.cc; path = src/core/lib/iomgr/wakeup_fd_nospecial.cc; sourceTree = "<group>"; };
+		0446E9FD26494DB900B95D6B /* ChatBotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotVC.swift; sourceTree = "<group>"; };
+		0446E9FE26494DB900B95D6B /* ChatBotVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatBotVC.xib; sourceTree = "<group>"; };
 		0451613E180FCD434F6C05B96E5B83F5 /* message_allocator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = message_allocator.h; path = include/grpcpp/support/message_allocator.h; sourceTree = "<group>"; };
 		046593F1263FD6AE00011450 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		04698003BD109CAD61CE0A1D52CD1A88 /* string_posix.cc */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = string_posix.cc; path = src/core/lib/gpr/string_posix.cc; sourceTree = "<group>"; };
@@ -15721,6 +15725,8 @@
 				E734761C3236D1702629331C3FDF8438 /* Pod */,
 				65A3E0B03E018D40BA9E1A406C9FDAED /* Support Files */,
 				046593F1263FD6AE00011450 /* Test.swift */,
+				0446E9FD26494DB900B95D6B /* ChatBotVC.swift */,
+				0446E9FE26494DB900B95D6B /* ChatBotVC.xib */,
 			);
 			name = ChatBotLibrary;
 			path = ../..;
@@ -18315,6 +18321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0446EA0026494DB900B95D6B /* ChatBotVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -18484,6 +18491,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0446E9FF26494DB900B95D6B /* ChatBotVC.swift in Sources */,
 				550961EBF244DD3509F8E4DDB15413EA /* ChatBotLibrary-dummy.m in Sources */,
 				D9017A80727B489A96BC6768D8F0105C /* ReplaceMe.swift in Sources */,
 				046593F2263FD6AE00011450 /* Test.swift in Sources */,

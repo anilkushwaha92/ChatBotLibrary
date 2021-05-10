@@ -14,8 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let obj = Logger()
-        obj.doSomething()
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,5 +22,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func chatBotBtnClickMethod(_ sender: UIButton) {
+        //present(ChatB, animated: <#T##Bool#>, completion: <#T##(() -> Void)?##(() -> Void)?##() -> Void#>)
+        //present(ChatBotVC(), animated: true, completion: nil)
+    }
+    
 }
 
