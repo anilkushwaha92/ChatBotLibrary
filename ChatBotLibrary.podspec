@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ChatBotLibrary'
-  s.version          = '0.1.1'
+  s.version          = '0.1.3'
   s.summary          = 'ChatBotLibrary framework a short description of for use in the iOS App.'
 
 # This description is used to generate tags and improve search results.
@@ -31,10 +31,10 @@ TODO: Try to keep it short, snappy and to the point, ChatBotLibrary framework a 
   s.ios.deployment_target = '9.0'
   s.swift_version = '5.0'
   s.source_files = 'ChatBotLibrary/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ChatBotLibrary' => ['ChatBotLibrary/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'ChatBotLibrary' => ['ChatBotLibrary/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}']
+  }
+  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

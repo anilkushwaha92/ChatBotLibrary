@@ -14,8 +14,7 @@ public class ChatBotVC: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-
-
+    
     public init() {
         super.init(nibName: "ChatBotVC", bundle: Bundle(for: ChatBotVC.self))
     }

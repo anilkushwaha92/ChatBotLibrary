@@ -23,7 +23,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction func chatBotBtnClickMethod(_ sender: UIButton) {
-        //present(ChatB, animated: <#T##Bool#>, completion: <#T##(() -> Void)?##(() -> Void)?##() -> Void#>)
         //present(ChatBotVC(), animated: true, completion: nil)
     }
     
